@@ -63,6 +63,10 @@ body {
   text-decoration-line: underline;
 }
 
+.adress-header-section {
+  font-style: normal;
+}
+
 .header-menu-adress {
   color: var(--slate);
   font-size: 16px;
@@ -100,6 +104,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .hero-btn:hover {
@@ -181,8 +186,7 @@ body {
 
 .team-text {
   color: var(--slate);
-  text-align: center;
-  font-size: 16px;
+   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -220,7 +224,6 @@ body {
 .button-all {
   color: var(--iris);
   background-color: var(--cloud);
-  text-align: center;
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
