@@ -28,6 +28,7 @@ body {
   list-style-type: none;
 }
 
+/*
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -40,13 +41,13 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+}*/
 
 /*---------------HEADER--------------------*/
 
 .header-logo {
-  color: var(--navyblue);
-  font-family: var(--logo_font);
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -54,8 +55,8 @@ body {
   text-transform: uppercase;
 }
 
-.header-logo-blue {
-  color: var(--iris);
+.header-logo-part {
+  color: var(--navyblue);
 }
 
 .header-menu-link {
@@ -207,7 +208,7 @@ body {
 }
 .footer-logo {
   color: var(--cloud);
-  font-family: var(--logo_font);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
